@@ -116,7 +116,7 @@ class CreateIndexCommand extends Command
                         'index' => $index,
                         //'type' => $type,
                         'body' => $mapping,
-                        "include_type_name" => true
+                        //"include_type_name" => true
                     ]);
 
                 }
